@@ -1,57 +1,38 @@
+/* Beginning of universal CSS */
 * {
-  box-sizing: border-box;
+
 }
 
+ul li {
+  list-stype-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ending of the universal CSS*/
 body {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 
 .wrapper {
-  padding: 50px 20px 40px 20px;
+  padding: 0px;
   margin: 0px;
-  background-color: yellow;
+  width: 100%;
+  height: 850px;
 }
 
-header {
-  height: 250px;
-  border: 2px solid black;
-  background-color: blue;
-}
-
-nav {
-  height: 120px;
-  background-color: green;
-  border: 2px solid black;
-}
-
-.maincontent {
-  height: 300px;
-  background-color: red;
-  border: 2px solid black;
-}
-
-aside {
-  height: 300px;
-  background-color: #1cffff;
-  border: 2px solid black;
-}
-
-.promo {
-  height: 200px;
-  background-color: #ffb051;
-  border: 2px solid black;
-}
-
-.wrapper p {
-  font-size: 2em;
-  font-weight: 600;
-  position: relative;
-  top: 20px;
-}
-
-footer {
-  height: 100px;
-  background-color: black;
+.header {
+  height: 170px;
+  background-color: #0b0b61;
   color: white;
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    background-color: lightblue;
+  }
 }
