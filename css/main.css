@@ -3,6 +3,12 @@
 
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
 ul li {
   list-stype-type: none;
 }
@@ -25,14 +31,38 @@ body {
 }
 
 .header {
-  height: 170px;
+  height: 200px;
   background-color: #0b0b61;
   color: white;
   padding-top: 30px;
 }
 
-@media only screen and (min-width: 600px) {
+.nav {
+  height: 120px;
+  background-color: lightgray;
+}
+
+.navlink {
+  padding: 10px;
+  height: 100%;
+}
+
+.navlinks {
+  color: black;
+  font-size: 2em;
+  border: 2px solid red;
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 500px) {
   .header {
     background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+  .header {
+    background-color: red;
   }
 }
